@@ -19,3 +19,4 @@ $("#list").find("tr:not(:eq(0))").hover(function(){
 $("input:text").keyup(function(){
 	$(this).val( $(this).val().replace(/['"]/g, ''));
 });
+
