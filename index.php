@@ -91,6 +91,7 @@
 				</div>
 			</nav>
         <?php
+			$_SESSION['error'] = 'TEST1';
             echo $_SESSION['error'];
             $_SESSION['error'] = "";
             if($_SESSION['is_logged']=='YES'){

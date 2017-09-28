@@ -1,0 +1,10 @@
+				<table  id='list' >
+					<tr>
+						<th>Company</th>
+						<th>Invoice Number</th>
+						
+						<th>Product</th>
+						<th>Product Serial Number</th>
+						<th>HDD</th>
+						<th>HDD Serial Number</th>
+						<th>Date</th>

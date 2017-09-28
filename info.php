@@ -1,6 +1,6 @@
 <?php
-    $DB['host'] = 'db_ipAddr';
-    $DB['db'] = 'db_name';
+    $DB['host'] = '127.0.0.1';
+    $DB['db'] = 'New Serial';
     $DB['id'] = 'user1';
-    $DB['pw'] = '******';
+    $DB['pw'] = '123456';
 ?>
