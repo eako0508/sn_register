@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Serial Number Registration</title>
+	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/main.css')}}">
+	
+</head>
+<body>
+	<nav role='banner'>
+		<a href="">Serial Number Registration</a>
+		<a href="">Product Register</a>
+		<a href="">Search</a>
+		<a href="">Old Serial Search</a>
+	</nav>
+	<main>
+		<h1 id='title'>Serial Number Registration</h1>
+		<!--
+		
+		<div id='form_pt1'>
+		
+		-->
+		<form class='js-form'>
+			<input type="text" name="company_name" placeholder="Company Name" autofocus required>
+			<input type="text" name="invoice" placeholder="Invoice number" required>	
+			<input type="text" name="product" placeholder="Product">
+			<input type="text" name="product_sn" placeholder="Product serial number">
+			<input type="text" name="hdd" placeholder="HDD type">
+			<input type="text" name="hdd_sn" placeholder="HDD serial number">	
+			<input type="submit" name="submit">
+		</form>
+		<section id='section_table'>	
+			<table id='list' >
+				<tr>
+					<th>Company</th>
+					<th>Invoice Number</th>
+					
+					<th>Product</th>
+					<th>Product Serial Number</th>
+					<th>HDD</th>
+					<th>HDD Serial Number</th>
+					<th>Date</th>
+				</tr>
+				<tr>
+					<td>something</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</section>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="{{URL::asset('js/main.js')}}"></script>
+</body>
+</html>
