@@ -15,3 +15,8 @@
 			</form>
 		</section>
 @endsection
+
+@section('snr-js')
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="{{URL::asset('js/main.js')}}"></script>
+@stop
