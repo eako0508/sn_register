@@ -1,9 +1,9 @@
 <?php
-//namespace App\Myapp;
+namespace App\MyApp;
 use App\MyApp\Serial_db;
 
 $db_class = new Serial_db();
-//$db_class.first_index();
+$db_class.first_index();
 $db_class.just_echo();
 ?>
 
