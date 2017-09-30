@@ -1,6 +1,15 @@
+<?php
+//namespace App\Myapp;
+use App\MyApp\Serial_db;
+
+$db_class = new Serial_db();
+//$db_class.first_index();
+$db_class.just_echo();
+?>
+
 @extends('layers.temp')
 
-@section('title', 'Seral Number Registration')
+@section('title', 'Serial Number Registration')
 
 @section('snr-section-form')
 		<section class='snr-section-form'>
@@ -15,3 +24,4 @@
 			</form>
 		</section>
 @endsection
+
