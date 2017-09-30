@@ -1,7 +1,7 @@
 <?php
-namespace App\Myapp;
+namespace App\MyApp;
 use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\Controller;
+//use App\Http\Controllers\Controller;
 
 class Serial_db {
 	public function first_index(){
