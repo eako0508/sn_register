@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('main');
+
+	$table = DB::table('orders')->get();
+
+    return view('main', compact('table'));
 });
