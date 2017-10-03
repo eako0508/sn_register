@@ -26,6 +26,22 @@ use App\MyApp\Serial_db;
 			</form>
 		</section>
 @endsection
+
+<!--
 @foreach($table as $entry)
 	<li>{{ $entry->company }}</li>
 @endforeach 
+-->
+
+<!--
+{{$arr = $table->where('company','SECUREPOL')}}
+-->
+
+<?php
+ $arr = $table->where('company','SECUREPOL');
+
+?>
+@foreach($arr as $ent)
+
+{{$ent->invoice}}
+@endforeach
