@@ -1,10 +1,12 @@
 <?php
+/*
 namespace App\MyApp;
 use App\MyApp\Serial_db;
 
-$db_class = new Serial_db();
-$db_class.first_index();
-$db_class.just_echo();
+	$db_class = new Serial_db();
+	$db_class.first_index();
+	$db_class.just_echo();
+*/
 ?>
 
 @extends('layers.temp')
@@ -24,4 +26,6 @@ $db_class.just_echo();
 			</form>
 		</section>
 @endsection
-
+@foreach($table as $entry)
+	<li>{{ $entry->company }}</li>
+@endforeach 

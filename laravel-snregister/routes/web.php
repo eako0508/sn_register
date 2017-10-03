@@ -16,4 +16,5 @@ Route::get('/', function () {
 	$table = DB::table('orders')->get();
 
     return view('main', compact('table'));
+	//return $table;
 });
