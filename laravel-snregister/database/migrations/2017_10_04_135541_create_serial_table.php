@@ -16,7 +16,7 @@ class CreateSerialTable extends Migration
         Schema::create('Serial_table', function (Blueprint $table) {
             $table->increments('id');
 			$table->string('company');
-			$table->smallInteger('invoice');
+			$table->integer('invoice');
 			$table->string('product');
 			$table->string('product_sn');
 			$table->string('hdd');
