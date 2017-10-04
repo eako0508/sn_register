@@ -14,7 +14,7 @@
 Route::get('/', function () {
 
 	$table = DB::table('orders')->get();
-
+	//$table = App\orders::last();
     return view('main', compact('table'));
 	//return $table;
 });
