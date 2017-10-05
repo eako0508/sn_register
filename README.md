@@ -95,7 +95,7 @@ Import sn\_track.sql to empty mysql database and change info.php accordingly.
 * Improve search with more than one categories.
 
 ## Laravel
-Laravel version is on https://github.com/eako0508/sn\_sn\_register\_laravel
+Laravel version is on [eako0508/sn\_register\_laravel](https://github.com/eako0508/sn_register_laravel)
 
 ## Author
 
