@@ -94,6 +94,9 @@ Import sn\_track.sql to empty mysql database and change info.php accordingly.
 * Implement AJAX for nav and sql results
 * Improve search with more than one categories.
 
+## Laravel
+Laravel version is on https://github.com/eako0508/sn\_sn\_register\_laravel
+
 ## Author
 
 Eugene Ko
