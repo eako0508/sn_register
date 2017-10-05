@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 //	$table = DB::table('orders')->get();
 	//$table = App\orders::last();
-	$table = Serial_table::get();
-    return view('main', compact('table'));
+//	$table = Serial_table::get();
+ //   return view('main', compact('table'));
 	//return $table;
 });
